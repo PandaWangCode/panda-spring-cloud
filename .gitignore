@@ -1,0 +1,16 @@
+*.class
+#*.gitignore
+*.settings
+# Package Files #
+*.jar
+*.war
+*.ear
+*.iml
+*/target/*
+/.settings/
+/.idea/
+*/.gitignore
+*.project
+**.classpath
+*.metadata
+springworkcloud/
