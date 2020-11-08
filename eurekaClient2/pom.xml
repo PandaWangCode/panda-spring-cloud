@@ -7,8 +7,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.panda</groupId>
-	<artifactId>eurekaClient</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>eurekaClient-2</artifactId>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 
