@@ -54,6 +54,12 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
+	    <!--增加链路追踪sluth zipkin  -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-zipkin</artifactId>
+		</dependency>
+		
 		<!--热部署功能-添加依赖 by libingbin2015@aliyun.com -->
 		<dependency>
 		  <groupId>org.springframework.boot</groupId>
