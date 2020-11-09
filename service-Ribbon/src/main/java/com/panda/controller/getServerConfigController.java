@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/config")
 public class getServerConfigController {
 	
-	//@Value("${data.env}")
+	@Value("${data.env}")
 	private String envStr;
 	
 	@GetMapping("/getserverconfig")
 	public String getServer() {
-		System.out.println("data.env从github服务器拿到的============"+envStr);
+		System.out.println("data.envֵ============"+envStr);
 		return envStr;
 	}
 

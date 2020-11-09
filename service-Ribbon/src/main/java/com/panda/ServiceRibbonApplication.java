@@ -14,9 +14,8 @@ import org.springframework.web.client.RestTemplate;
 public class ServiceRibbonApplication {
 	
 	/**
-	 * Í¨ï¿½ï¿½@EnableDiscoveryClientï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½á£»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ioc×¢ï¿½ï¿½Ò»ï¿½ï¿½bean: restTemplate;
-	 * ï¿½ï¿½Í¨ï¿½ï¿½@LoadBalanced×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½restRemplateï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¾ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½Ü¡ï¿½
-	 */
+	 * Í¨¹ý@EnableDiscoveryClientÏò·þÎñÖÐÐÄ×¢²á£»²¢ÇÒÏò³ÌÐòµÄioc×¢ÈëÒ»¸öbean: restTemplate;
+	 * ²¢Í¨¹ý@LoadBalanced×¢½â±íÃ÷ÕâÊÇ¸örestRemplate¿ªÆô¸ºÔØ¾ùºâµÄ¹¦ÄÜ¡£*/
 	@Bean
 	@LoadBalanced
 	RestTemplate restTemplate() {
