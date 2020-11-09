@@ -11,7 +11,7 @@ public class ZipkinServerApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(ZipkinServerApplication.class, args);
-		System.out.println("=============ZipKin-ServerÆô¶¯³É¹¦================");
+		System.out.println("=============ZipKin-Serverå¯åŠ¨æˆåŠŸ================");
 	}
 	
 }

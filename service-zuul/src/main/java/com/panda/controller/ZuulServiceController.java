@@ -1,22 +1,19 @@
 package com.panda.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.panda.serviceimpl.MyFilter;
 
 
 @RestController
-@RequestMapping(value = "/config")
-public class getServerConfigController {
-	
-	//@Value("${data.env}")
-	private String envStr;
-	
-	@GetMapping("/getserverconfig")
-	public String getServer() {
-		System.out.println("data.env从github服务器拿到的============"+envStr);
-		return envStr;
-	}
+@RequestMapping(value = "/zuul")
+public class ZuulServiceController {
+
 
 }

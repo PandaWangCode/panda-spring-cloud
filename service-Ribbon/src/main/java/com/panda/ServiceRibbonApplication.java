@@ -14,8 +14,8 @@ import org.springframework.web.client.RestTemplate;
 public class ServiceRibbonApplication {
 	
 	/**
-	 * Í¨¹ı@EnableDiscoveryClientÏò·şÎñÖĞĞÄ×¢²á£»²¢ÇÒÏò³ÌĞòµÄioc×¢ÈëÒ»¸öbean: restTemplate;
-	 * ²¢Í¨¹ı@LoadBalanced×¢½â±íÃ÷ÕâÊÇ¸örestRemplate¿ªÆô¸ºÔØ¾ùºâµÄ¹¦ÄÜ¡£
+	 * Í¨ï¿½ï¿½@EnableDiscoveryClientï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½á£»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ioc×¢ï¿½ï¿½Ò»ï¿½ï¿½bean: restTemplate;
+	 * ï¿½ï¿½Í¨ï¿½ï¿½@LoadBalanced×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½restRemplateï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¾ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½Ü¡ï¿½
 	 */
 	@Bean
 	@LoadBalanced
@@ -25,7 +25,8 @@ public class ServiceRibbonApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(ServiceRibbonApplication.class, args);
-		System.out.println("=============Service-RibbonÆô¶¯³É¹¦================");
+		System.out.println("=============Service-Ribbonå·²ç»å¯åŠ¨================");
 	}
+	
 	
 }
