@@ -11,11 +11,11 @@ import com.panda.service.SchedualSayHiFeignService;
 public class SchedualSayHiFeignServiceimplHystrix implements SchedualSayHiFeignService {
 
 	public String sayHiFromClientOne(String name) {
-		return "sorry,"+name+"，Feign调用服务应用失败！";
+		return "sorry,"+name+"，Feign调用服务1应用失败！";
 	}
 
 	public String sayHiFromClient2(String name) {
-		return "sorry,"+name+"，Feign调用服务应用失败！";
+		return "sorry,"+name+"，Feign调用服务2应用失败！";
 	}
 	
 	/*
