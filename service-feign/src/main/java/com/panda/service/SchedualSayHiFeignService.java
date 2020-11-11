@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.netflix.ribbon.proxy.annotation.Hystrix;
-import com.panda.serviceimpl_hystrix.SchedualSayHiFeignServiceimplHystrix;
+import com.panda.serviceimpl.hystrix.SchedualSayHiFeignServiceimplHystrix;
 
 
 

@@ -1,4 +1,4 @@
-package com.panda.serviceimpl_hystrix;
+package com.panda.serviceimpl.hystrix;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
