@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.panda.service.UmsMemberService;
 
+import io.swagger.annotations.Api;
+
+@Api(tags = "UmsMemberController", description = "验证码校验接口")
 @RestController
 public class UmsMemberController {
 	
