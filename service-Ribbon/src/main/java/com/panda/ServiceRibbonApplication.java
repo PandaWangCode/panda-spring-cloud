@@ -24,7 +24,7 @@ public class ServiceRibbonApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(ServiceRibbonApplication.class, args);
-		System.out.println("=============Service-RibbonÂ∑≤ÁªèÂêØÂä®================");
+		System.out.println("=============Service-Ribbon∆Ù∂Ø================");
 	}
 	
 	

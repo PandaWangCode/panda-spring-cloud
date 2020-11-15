@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/config")
 public class getServerConfigController {
 	
-	@Value("${data.env}")
+	//@Value("${data.env}")
 	private String envStr;
 	
 	@GetMapping("/getserverconfig")
