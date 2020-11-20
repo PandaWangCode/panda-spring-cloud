@@ -13,7 +13,7 @@ public class ArrayBlockingQueueTest {
 	//测试入口
 	public static void main(String[] args) {
 		System.out.println("测试开始");
-        ArrayBlockingQueue queue = new ArrayBlockingQueue<>(100);
+        ArrayBlockingQueue queue = new ArrayBlockingQueue(100);
         Producter producer = new Producter(queue);  
         Customer consumer = new Customer(queue);  
         new Thread(producer).start();  
@@ -35,7 +35,6 @@ class Producter implements Runnable{
 		queue = arrayBlockingQueue;
 	}
 
-	@Override
 	public void run() {
 		try {  
             queue.put("1");  
@@ -61,7 +60,6 @@ class Customer implements Runnable{
 		this.queue = queue;
 	}
 	
-	@Override
 	public void run() {
 		try {
 			//第一次能快速拿到值

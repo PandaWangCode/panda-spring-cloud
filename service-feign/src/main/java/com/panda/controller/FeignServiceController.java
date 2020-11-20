@@ -10,7 +10,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModelProperty;
 import io.swagger.annotations.ApiOperation;
 
-@Api(tags = "/", description = "Feign声明REST风格接口")
+@Api(tags = "feignServiceController", description = "Feign声明REST风格接口")
 @RestController
 public class FeignServiceController {
 	

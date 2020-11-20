@@ -21,16 +21,15 @@ public class MyConcurretHashMapThread implements Runnable{
 		testConcurrentHashMapPutAndUpdate();
 	}
 	
-	ConcurrentHashMap<String, Object> itToStrs = new ConcurrentHashMap<>();
-	Hashtable<String, Object> hashtable = new Hashtable<>();
+	ConcurrentHashMap<String, Object> itToStrs = new ConcurrentHashMap();
+	Hashtable<String, Object> hashtable = new Hashtable();
 	
 	
 	MyConcurretHashMapThread(){
 	}
 	
-	
-	@Override
 	public void run() {
+		// TODO Auto-generated method stub
 		
 	}
 	
@@ -162,7 +161,6 @@ public class MyConcurretHashMapThread implements Runnable{
         
         System.out.println("对比发现虽然是多线程，但是map长度是结果一样--------");
 	}
-	
-	
+
 	
 }

@@ -27,7 +27,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter{
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(JwtAuthenticationTokenFilter.class);
 	
-	@Autowired
+	//@Autowired
     private UserDetailsService userDetailsService;
     @Autowired
     private JwtTokenUtil jwtTokenUtil;
@@ -40,13 +40,17 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter{
 	protected void doFilterInternal(HttpServletRequest request, 
 									HttpServletResponse response, 
 									FilterChain filterChain)throws ServletException, IOException {
+		/**
 		String authHeader = request.getHeader(this.tokenHeader);
         if (authHeader != null && authHeader.startsWith(this.tokenHead)) {
             String authToken = authHeader.substring(this.tokenHead.length());// The part after "Bearer "
             String username = jwtTokenUtil.getUserNameFromToken(authToken);
+            
             LOGGER.info("checking username:{}", username);
+            
             if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
                 UserDetails userDetails = this.userDetailsService.loadUserByUsername(username);
+                
                 if (jwtTokenUtil.validateToken(authToken, userDetails)) {
                     UsernamePasswordAuthenticationToken authentication = 
                       new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
@@ -54,8 +58,10 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter{
                     LOGGER.info("authenticated user:{}", username);
                     SecurityContextHolder.getContext().setAuthentication(authentication);
                 }
+                
             }
         }
+        **/
         filterChain.doFilter(request, response);
 	}
 
