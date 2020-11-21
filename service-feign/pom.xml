@@ -97,12 +97,6 @@
 		</dependency>
 		
 		
-		<dependency>
-		   <groupId>com.google.guava</groupId>
-		   <artifactId>guava</artifactId>
-		   <version>15.0</version>
-		</dependency>
-		
 		
 		<!--热部署功能-添加依赖 by libingbin2015@aliyun.com -->
 		<dependency>
