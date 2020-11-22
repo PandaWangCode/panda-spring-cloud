@@ -12,4 +12,5 @@ public class EureakClientApplication {
 		SpringApplication.run(EureakClientApplication.class, args);
 		System.out.println("=============Eureka∆Ù∂Ø≥…π¶================");
 	}
+
 }
