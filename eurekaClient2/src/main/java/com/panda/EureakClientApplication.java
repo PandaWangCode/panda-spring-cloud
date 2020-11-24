@@ -4,12 +4,14 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
+import araf.core.exception.BusinessException;
+
 @EnableEurekaClient
 @SpringBootApplication
 public class EureakClientApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(EureakClientApplication.class, args);
-		System.out.println("=============EurekaÆô¶¯³É¹¦================");
+		System.out.println("=============Eurekaï¿½ï¿½ï¿½ï¿½ï¿½É¹ï¿½================");
 	}
 }

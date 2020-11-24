@@ -96,13 +96,17 @@
 		    <version>0.9.0</version>
 		</dependency>
 		
-		
 		<dependency>
 		   <groupId>com.google.guava</groupId>
 		   <artifactId>guava</artifactId>
 		   <version>15.0</version>
 		</dependency>
 		
+		<!--Elasticsearch相关依赖-->
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency>
 		
 		<!--热部署功能-添加依赖 by libingbin2015@aliyun.com -->
 		<dependency>

@@ -34,6 +34,12 @@
 			<artifactId>spring-cloud-starter-zipkin</artifactId>
 		</dependency>
 		
+		<dependency>
+			<groupId>com.acca</groupId>
+			<artifactId>araf-job-spring-boot-starter</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		
 		<!--热部署功能-添加依赖 by libingbin2015@aliyun.com -->
 		<dependency>
 		  <groupId>org.springframework.boot</groupId>
