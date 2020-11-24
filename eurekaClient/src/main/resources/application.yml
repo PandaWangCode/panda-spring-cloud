@@ -7,5 +7,11 @@ server:
 spring:
   application:
     name: service-eureka-client
-  zipkin:
-    base-url: http://localhost:9411 #设置链路跟踪服务器 
+  #zipkin:
+    #base-url: http://localhost:9411 #设置链路跟踪服务器 
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: wangpan
+    password: 123456
+    virtual-host: com.panda.vmfirst # 这里不需要加/，rabbitMQ 默认就有个/，加了会有2个,springboot 会直接把这个值赋值给虚拟主机变量

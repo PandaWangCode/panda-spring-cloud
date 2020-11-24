@@ -96,10 +96,10 @@
 		    <version>0.9.0</version>
 		</dependency>
 		
+		<!--rabbitMQ amqp协议   -->
 		<dependency>
-		   <groupId>com.google.guava</groupId>
-		   <artifactId>guava</artifactId>
-		   <version>15.0</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
 		
 		<!--Elasticsearch相关依赖-->
@@ -107,7 +107,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
         </dependency>
-		
+        
 		<!--热部署功能-添加依赖 by libingbin2015@aliyun.com -->
 		<dependency>
 		  <groupId>org.springframework.boot</groupId>
@@ -127,7 +127,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-	</dependencies>
+   </dependencies>
 
 	<dependencyManagement>
 		<dependencies>
@@ -150,15 +150,43 @@
 		</plugins>
 	</build>
 	
-	<repositories>
-		<repository>
+	<!--配置阿里云仓库-->
+    <repositories>
+        <repository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        
+<!--          <repository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
 			<url>https://repo.spring.io/milestone</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
-		</repository>
-	</repositories>
-	
+		</repository> -->
+		
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+    
 </project>

@@ -1,6 +1,7 @@
 package com.panda.service.elasticsearch;
 
+import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
-public class EsProductRepository extends ElasticsearchRepository{
+public interface EsProductRepository extends ElasticsearchRepository<Object, Object>{
 
 }

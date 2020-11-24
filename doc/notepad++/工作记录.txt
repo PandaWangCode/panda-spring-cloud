@@ -1,0 +1,18 @@
+RabbitMQ
+https://blog.csdn.net/wangbing25307/article/details/80845641
+
+ThreadLocal:
+https://www.cnblogs.com/fsmly/p/11020641.html
+
+ArrayBlockQueue:
+https://blog.csdn.net/luzhensmart/article/details/81712583
+
+Java并发包-java.util.concurrent详解
+https://blog.csdn.net/qq_27378875/article/details/81610696
+
+停止：
+net stop RabbitMQ 
+开始：
+net start RabbitMQ &
+重启：
+net stop RabbitMQ && net start RabbitMQ
