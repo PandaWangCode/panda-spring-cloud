@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @EnableFeignClients
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
 public class FeignServiceApplication {
 	

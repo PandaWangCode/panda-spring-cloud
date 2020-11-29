@@ -14,6 +14,8 @@ public class MyConcurretHashMapThread implements Runnable{
 	
 	//测试入口
 	public static void main(String[] args) {
+		//Hashtable<String, Object> hashtable2 = new Hashtable();
+		//hashtable2.put("123", null); //hashtable key 和 value 都不能为空
 		System.out.println("测试开始");
 		testRemove();
 		testIteratorRemove();
@@ -30,7 +32,6 @@ public class MyConcurretHashMapThread implements Runnable{
 	
 	public void run() {
 		// TODO Auto-generated method stub
-		
 	}
 	
 	/**

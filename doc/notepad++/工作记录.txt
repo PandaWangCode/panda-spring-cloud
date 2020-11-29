@@ -16,3 +16,11 @@ net stop RabbitMQ
 net start RabbitMQ &
 重启：
 net stop RabbitMQ && net start RabbitMQ
+
+
+kafka window启动步骤：
+ 1、打开新的cmd，输入zkServer，运行Zookeeper
+ 2、①启动Kafka服务器
+　　新建cmd窗口:
+      cd D:\Tool\kafka_2.11-2.1.1 
+     .\bin\windows\kafka-server-start.bat .\config\server.properties
