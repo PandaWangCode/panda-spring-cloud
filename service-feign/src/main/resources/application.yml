@@ -34,7 +34,9 @@ spring:
       buffer-memory: 335554432 #每次批量发送消息的缓冲区大小
       key-serializer: org.apache.kafka.common.serialization.StringSerializer     # 指定消息key的编解码方式      value-serializer: org.apache.kafka.common.serialization.StringSerializer   # 指定消息消息体的编解码方式
       properties:        linger:
-          ms: 0  # 提交延时,linger.ms为0表示每接收到一条消息就提交给kafka,这时候batch-size其实就没用了     consumer:  #消费者配置      group-id: user-log-group  # 默认的消费组ID
+          ms: 0  # 提交延时,linger.ms为0表示每接收到一条消息就提交给kafka,这时候batch-size其实就没用了 
+        partitioner:
+          class: com.panda.serviceimpl.kafka.CustomizePartitioner  #配置自定义分区器，配置的值就是分区器类的全路径名      consumer:  #消费者配置      group-id: user-log-group  # 默认的消费组ID
       auto-offset-reset: latest  # 当kafka中没有初始offset或offset超出范围时将自动重置offset; earliest:重置为分区中最小的offset; latest:重置为分区中最新的offset(消费分区中新产生的数据); none:只要有一个分区不存在已提交的offset,就抛出异常;
       enable-auto-commit: true  # 是否自动提交offset
       auto-commit-interval: 1000 # 提交offset延时(接收到消息后多久提交offset)

@@ -20,7 +20,7 @@ public class KafkaProducterController {
         kafkaTemplate.send("userLog", normalMessage);
     }
     
-//    1、带回调的生产者
+//    带回调的生产者
 //    kafkaTemplate提供了一个回调方法addCallback，我们可以在回调方法中监控消息是否发送成功 或 失败时做补偿处理，有两种写法
     @GetMapping("/kafka/callbackOne/{message}")
     public void sendMessage2(@PathVariable("message") String normaString) {
@@ -40,4 +40,19 @@ public class KafkaProducterController {
     	
     }
     
+    
+    @GetMapping("/kafka/transaction")
+    public void sendMessage3() {
+    	// 声明事务：后面报错消息不会发出去
+    	kafkaTemplate.executeInTransaction(operation -> {
+    		operation.send("userLog", "事物测试");
+    		throw new RuntimeException("fail");
+    	});
+    	
+		/*
+		 * // 不声明事务：后面报错但前面消息已经发送成功了
+		 * kafkaTemplate.send("userLog","test executeInTransaction"); throw new
+		 * RuntimeException("fail");
+		 */
+    }
 }

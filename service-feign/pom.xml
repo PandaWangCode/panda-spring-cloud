@@ -55,10 +55,10 @@
 		</dependency>
 		
 	    <!--增加链路追踪sluth zipkin  -->
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zipkin</artifactId>
-		</dependency>
+		</dependency> -->
 		
 		<!--redis依赖配置-->
 		<dependency>

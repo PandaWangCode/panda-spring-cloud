@@ -10,6 +10,10 @@ https://blog.csdn.net/luzhensmart/article/details/81712583
 Java并发包-java.util.concurrent详解
 https://blog.csdn.net/qq_27378875/article/details/81610696
 
+kafka事务，transactional
+https://www.it610.com/article/1282350337788755968.htm
+https://github.com/fangyuan94/kafkaDemo/tree/master/src/main/java/com/demo/kafkaDemo
+
 停止：
 net stop RabbitMQ 
 开始：
