@@ -29,7 +29,7 @@
 		</dependency>
 		
         <!-- 三代架构源码 begin -->
-        <dependency>
+ <!--        <dependency>
 			<groupId>com.acca</groupId>
 			<artifactId>araf-job-spring-boot-starter</artifactId>
 			<version>1.0.0</version>
@@ -45,7 +45,7 @@
 			<groupId>com.acca</groupId>
 			<artifactId>araf-elasticsearch-spring-boot-starter</artifactId>
 			<version>1.0.0</version>
-		</dependency>	
+		</dependency>	 -->
 		<!-- 三代架构源码 end-->	
 		
 		<!--增加链路追踪zipkin  -->

@@ -55,10 +55,10 @@
 		</dependency>
 		
 	    <!--增加链路追踪sluth zipkin  -->
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zipkin</artifactId>
-		</dependency>
+		</dependency> -->
 		
 		<!--redis依赖配置-->
 		<dependency>
@@ -103,10 +103,36 @@
 		</dependency>
 		
 		<!--Elasticsearch相关依赖-->
-		<dependency>
+<!-- 		<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency> -->
+        
+        <!-- 加入kafka中间件 -->
+        <dependency>
+		    <groupId>org.springframework.kafka</groupId>
+		    <artifactId>spring-kafka</artifactId>
+		</dependency>
+		
+		<dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka-test</artifactId>
+            <scope>test</scope>
         </dependency>
+        
+        <!--lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        
+        <!-- com.alibaba/fastjson -->
+		<dependency>
+		    <groupId>com.alibaba</groupId>
+		    <artifactId>fastjson</artifactId>
+		    <version>1.2.75</version>
+		</dependency>
         
 		<!--热部署功能-添加依赖 by libingbin2015@aliyun.com -->
 		<dependency>
@@ -119,13 +145,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+			<!-- <scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>org.junit.vintage</groupId>
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
-			</exclusions>
+			</exclusions> -->
 		</dependency>
    </dependencies>
 
