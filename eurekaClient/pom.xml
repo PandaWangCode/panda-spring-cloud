@@ -59,6 +59,13 @@
 			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
 		
+		<!--spring boot 自动配置包spring-boot-autoconfigure -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-autoconfigure</artifactId>
+		    <version>2.3.4.RELEASE</version>
+		</dependency>
+		
 		
 		<!--热部署功能-添加依赖 by libingbin2015@aliyun.com -->
 		<dependency>
