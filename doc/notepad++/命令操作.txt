@@ -1,0 +1,10 @@
+Redis
+
+1、启动：
+redis-server.exe redis.windows.conf
+
+2、新开连接redis服务器：
+这时候另启一个 cmd 窗口，原来的不要关闭，不然就无法访问服务端了。
+切换到 redis 目录下运行:
+redis-cli.exe -h 127.0.0.1 -p 6379
+
