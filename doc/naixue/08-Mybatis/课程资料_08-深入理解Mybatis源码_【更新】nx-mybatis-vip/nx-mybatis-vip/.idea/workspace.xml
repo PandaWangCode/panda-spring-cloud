@@ -1,0 +1,1948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/SqlSessionFactory.java" description="SqlSession openSession();" line="26" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="006d0e61-cd93-4ff3-b25f-27e7eef4ba8e" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/demo_mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-3/target/" />
+    <ignored path="$PROJECT_DIR$/custom-mybatis/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-779138100">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="58" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.15" value="5" />
+          <entry key="project.open.time.16" value="5" />
+          <entry key="project.open.time.17" value="3" />
+          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.2" value="12" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.opened" value="69" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="BaseExecutor" value="1" />
+          <entry key="BatchExecutorException" value="1" />
+          <entry key="Cache" value="7" />
+          <entry key="CachingExecutor" value="1" />
+          <entry key="Configuration" value="1" />
+          <entry key="Driver" value="1" />
+          <entry key="Executor" value="12" />
+          <entry key="Throwable" value="1" />
+          <entry key="XMLConfigBuilder" value="1" />
+          <entry key="class" value="15" />
+          <entry key="gitignore" value="6" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="1436" />
+          <entry key="pom" value="4" />
+          <entry key="properties" value="22" />
+          <entry key="puml" value="2" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="202" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="15" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="1436" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PlantUML file" value="2" />
+          <entry key="Properties" value="22" />
+          <entry key="SQL" value="1" />
+          <entry key="UML" value="26" />
+          <entry key="XML" value="206" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="23" />
+          <entry key="java" value="10819" />
+          <entry key="properties" value="240" />
+          <entry key="puml" value="31" />
+          <entry key="xml" value="597" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="10819" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="PlantUML file" value="31" />
+          <entry key="Properties" value="240" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="595" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/StatementHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/RoutingStatementHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1612">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/MybatisConnect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/OrderMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/mapper/OrderMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="22" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/TraditionConnect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="1" selection-end-line="13" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-221">
+              <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/PreparedStatementHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1085">
+              <caret line="64" column="44" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/resultset/ResultSetHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3751">
+              <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="UML Sequence" />
+        <option value="UML Class" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mysql</find>
+      <find>myba</find>
+      <find>queryById</find>
+      <find>pdf</find>
+      <find>optional</find>
+      <find>&lt;optional&gt;true&lt;/optional&gt;</find>
+      <find>jdk</find>
+      <find>plu</find>
+      <find>1.8</find>
+      <find>myb</find>
+      <find>registerAlias</find>
+      <find>typeHandlerElement</find>
+      <find>log</find>
+      <find>一级</find>
+      <find>localCache</find>
+      <find>t_order</find>
+      <find>&lt;!--&lt;setting name=&quot;localCacheScope&quot; value=&quot;STATEMENT&quot;/&gt;--&gt;</find>
+      <find>cacheEnabled</find>
+      <find>statementType</find>
+      <find>dirty</find>
+      <find>flushCacheRequired</find>
+      <find>configuration</find>
+      <find>settings</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>&lt;optional&gt;false&lt;/optional&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="C:/workspace/Spring-Framework" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/annotation/Entity.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/example/TraditionConnect.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/executor/NxExecutor.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/executor/NxSimpleHandler.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/NxMapperProxy.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/resources/mybatisConfig.properties" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/executor/NxStatementHandler.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/binding/NxMapperProxyFactory.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/executor/NxParameterHandler.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/mapper/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/binding/NxMapperProxy.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/session/NxConfiguration.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/mapper/Order.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/executor/NxResultSetHandler.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/session/NxSqlSessionFactory.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/session/NxSqlSession.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/binding/NxMapperRegistry.java" />
+        <option value="$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/Test.java" />
+        <option value="$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/example/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/example/User.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/example/UserMapper.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/example/pattern/proxy/Couse.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/example/pattern/proxy/EnglishCourse.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/example/pattern/proxy/CourseProxy.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/example/pattern/proxy/Test.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/example/MybatisFirstConnect.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/mybatis-CacheSecond.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/example/Test.java" />
+        <option value="$PROJECT_DIR$/demo/src/test/java/lru/LruCache.java" />
+        <option value="$PROJECT_DIR$/demo/src/test/java/lru/Test.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/example/MybatisConnect.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/Order.java" />
+        <option value="$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/Configuration.java" />
+        <option value="$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperProxy.java" />
+        <option value="$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/CachingExecutor.java" />
+        <option value="$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/RoutingStatementHandler.java" />
+        <option value="$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/cache/decorators/BlockingCache.java" />
+        <option value="$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java" />
+        <option value="$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperRegistry.java" />
+        <option value="$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/MybatisConnect.java" />
+        <option value="$PROJECT_DIR$/demo/src/test/java/com.nv.cache/SecondLeveoCache.java" />
+        <option value="$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/BaseExecutor.java" />
+        <option value="$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperMethod.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/mybatis-Cache.xml" />
+        <option value="$PROJECT_DIR$/demo/src/test/java/com.nv.cache/FirstLevelCache.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\.m2" />
+        <option name="mavenHome" value="E:/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="nx-mybatis-vip" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="nx-mybatis-vip" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SerializableHasSerialVersionUIDField</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.nv.cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+              <item name="logging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nx-mybatis-vip" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ibatis" type="462c0819:PsiDirectoryNode" />
+              <item name="logging" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nx-mybatis-vip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/naixue/work/nx-mybatis-vip/custom-mybatis/src/main/java/com/nx/custom/mybatis/executor/NxSimpleHandler.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610981506753" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/demo_mybatis/src/main/java/com/nx/mybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../custom-mybatis" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5011494" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.nx.mybatis.example.pattern.proxy" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.nx.mybatis.demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\naixue\work\nx-mybatis-vip\demo\src\main\resources\sql" />
+      <recent name="C:\naixue\work\nx-mybatis-vip\demo\src\test\java" />
+      <recent name="C:\naixue\work\nx-mybatis-vip\demo_mybatis\src\main\resources\com\nx\mybatis\demo" />
+      <recent name="C:\naixue\work\nx-mybatis-vip\demo_mybatis\target\classes\com\nx\mybatis\demo" />
+      <recent name="C:\naixue\work\nx-mybatis-vip\demo_mybatis\src\main\resources\com.nx.mybatis.demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\naixue\work\nx-mybatis-vip\demo\src\main\resources\mapper" />
+      <recent name="C:\naixue\work\nx-mybatis-vip\custom-mybatis" />
+      <recent name="C:\naixue\work\nx-mybatis-vip\custom-mybatis\src\main\resources" />
+      <recent name="C:\naixue\work\nx-mybatis-vip\custom-mybatis\src\main\java\com.nx.custom.mybatis" />
+      <recent name="C:\naixue\work\nx-mybatis-vip\demo\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nx.mybatis.example" />
+      <recent name="com.nv.cache" />
+      <recent name="com.nx.mybatis.demo" />
+      <recent name="com.nx.mybatis.test" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.nx.custom.mybatis" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MybatisConnect">
+    <configuration name="MybatisConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nx.mybatis.MybatisConnect" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nx.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstLevelCache.testDirtyData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nv.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nv.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.nv.cache.FirstLevelCache" />
+      <option name="METHOD_NAME" value="testDirtyData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstLevelCache.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nv.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nv.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.nv.cache.FirstLevelCache" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondLeveoCache.testDirtyData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nv.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nv.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.nv.cache.SecondLeveoCache" />
+      <option name="METHOD_NAME" value="testDirtyData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondLeveoCache.testSession" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nv.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nv.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.nv.cache.SecondLeveoCache" />
+      <option name="METHOD_NAME" value="testSession" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nx.mybatis.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nx.mybatis.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMybatisApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo_mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nx.mybatis.example.DemoMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo_mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nx.mybatis.example.DemoMybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.DemoApplication (1)" />
+      <item itemvalue="Spring Boot.DemoMybatisApplication" />
+      <item itemvalue="Spring Boot.DemoMybatisApplication (1)" />
+      <item itemvalue="JUnit.FirstLevelCache.testUpdate" />
+      <item itemvalue="JUnit.FirstLevelCache.testDirtyData" />
+      <item itemvalue="JUnit.SecondLeveoCache.testSession" />
+      <item itemvalue="JUnit.SecondLeveoCache.testDirtyData" />
+      <item itemvalue="Application.MybatisConnect" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MybatisConnect" />
+        <item itemvalue="JUnit.SecondLeveoCache.testDirtyData" />
+        <item itemvalue="JUnit.SecondLeveoCache.testSession" />
+        <item itemvalue="JUnit.FirstLevelCache.testDirtyData" />
+        <item itemvalue="JUnit.FirstLevelCache.testUpdate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="006d0e61-cd93-4ff3-b25f-27e7eef4ba8e" name="Default Changelist" comment="" />
+      <created>1601362279001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601362279001</updated>
+      <workItem from="1601362282856" duration="13712000" />
+      <workItem from="1601451157531" duration="2766000" />
+      <workItem from="1601454266279" duration="485000" />
+      <workItem from="1601454781480" duration="3128000" />
+      <workItem from="1601620824808" duration="6562000" />
+      <workItem from="1601956599637" duration="317000" />
+      <workItem from="1602211671387" duration="1470000" />
+      <workItem from="1602229945433" duration="23000" />
+      <workItem from="1602235378642" duration="574000" />
+      <workItem from="1602244338902" duration="1337000" />
+      <workItem from="1602297192906" duration="649000" />
+      <workItem from="1602313021769" duration="698000" />
+      <workItem from="1602313815074" duration="8402000" />
+      <workItem from="1602416823408" duration="6597000" />
+      <workItem from="1602471281833" duration="15252000" />
+      <workItem from="1602558540235" duration="2326000" />
+      <workItem from="1602572561405" duration="6413000" />
+      <workItem from="1602581119610" duration="7083000" />
+      <workItem from="1602595298972" duration="2403000" />
+      <workItem from="1602643533972" duration="19827000" />
+      <workItem from="1602683405884" duration="4982000" />
+      <workItem from="1602688723579" duration="5586000" />
+      <workItem from="1602730262397" duration="16899000" />
+      <workItem from="1602817160828" duration="1361000" />
+      <workItem from="1602827486758" duration="12485000" />
+      <workItem from="1603075422778" duration="17327000" />
+      <workItem from="1603159983211" duration="27146000" />
+      <workItem from="1603202319722" duration="1006000" />
+      <workItem from="1603262023970" duration="20322000" />
+      <workItem from="1603334302989" duration="15423000" />
+      <workItem from="1603422644727" duration="1186000" />
+      <workItem from="1603435514964" duration="12206000" />
+      <workItem from="1603457694585" duration="657000" />
+      <workItem from="1603522555974" duration="4558000" />
+      <workItem from="1603529516305" duration="816000" />
+      <workItem from="1603537616709" duration="361000" />
+      <workItem from="1603610891600" duration="3777000" />
+      <workItem from="1603679602852" duration="17541000" />
+      <workItem from="1603722972188" duration="646000" />
+      <workItem from="1603765585169" duration="410000" />
+      <workItem from="1603938326598" duration="1088000" />
+      <workItem from="1604574658111" duration="2597000" />
+      <workItem from="1604646574828" duration="16000" />
+      <workItem from="1604925702172" duration="47000" />
+      <workItem from="1605097715574" duration="309000" />
+      <workItem from="1605493641881" duration="1507000" />
+      <workItem from="1605501673117" duration="3132000" />
+      <workItem from="1605510973181" duration="3356000" />
+      <workItem from="1605516974938" duration="95000" />
+      <workItem from="1605517096474" duration="3454000" />
+      <workItem from="1605532815113" duration="335000" />
+      <workItem from="1605537304044" duration="4241000" />
+      <workItem from="1605541767679" duration="9000" />
+      <workItem from="1605541864313" duration="988000" />
+      <workItem from="1605583638737" duration="8080000" />
+      <workItem from="1605799434964" duration="904000" />
+      <workItem from="1605860313886" duration="4880000" />
+      <workItem from="1607928436550" duration="19558000" />
+      <workItem from="1607999885489" duration="1292000" />
+      <workItem from="1608036621489" duration="19399000" />
+      <workItem from="1609847291095" duration="55000" />
+      <workItem from="1609847354212" duration="638000" />
+      <workItem from="1609901617677" duration="1912000" />
+      <workItem from="1609994952752" duration="21000" />
+      <workItem from="1610351497396" duration="1263000" />
+      <workItem from="1610420685720" duration="3255000" />
+      <workItem from="1610519213556" duration="3304000" />
+      <workItem from="1610949859120" duration="21270000" />
+      <workItem from="1611056508784" duration="161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SecondLeveoCache_testDirtyData - 2021.01.18 at 15h 46m 38s.xml">
+      <configuration name="SecondLeveoCache.testDirtyData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstLevelCache_testSession - 2021.01.18 at 20h 47m 09s.xml">
+      <configuration name="FirstLevelCache.testSession" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstLevelCache_testSession - 2021.01.18 at 20h 49m 05s.xml">
+      <configuration name="FirstLevelCache.testSession" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstLevelCache_testUpdate - 2021.01.18 at 20h 50m 56s.xml">
+      <configuration name="FirstLevelCache.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstLevelCache_testDirtyData - 2021.01.18 at 20h 54m 03s.xml">
+      <configuration name="FirstLevelCache.testDirtyData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstLevelCache_testDirtyData - 2021.01.18 at 20h 57m 03s.xml">
+      <configuration name="FirstLevelCache.testDirtyData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstLevelCache_testDirtyData - 2021.01.18 at 21h 00m 24s.xml">
+      <configuration name="FirstLevelCache.testDirtyData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondLeveoCache_testSession - 2021.01.18 at 21h 18m 06s.xml">
+      <configuration name="SecondLeveoCache.testSession" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondLeveoCache_testSession - 2021.01.18 at 21h 18m 53s.xml">
+      <configuration name="SecondLeveoCache.testSession" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondLeveoCache_testDirtyData - 2021.01.18 at 21h 19m 48s.xml">
+      <configuration name="SecondLeveoCache.testDirtyData" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="377402000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-452" y="157" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988532" visible="true" weight="0.34179264" />
+      <window_info id="Structure" order="1" sideWeight="0.5011468" side_tool="true" weight="0.1765625" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.17541766" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293556" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005208" side_tool="true" weight="0.3451835" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32816228" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32998884" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="14" weight="0.14269789" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2640389" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.13066955" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="PlantUML" order="9" weight="0.24253732" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988532" visible="true" weight="0.33585313" />
+      <window_info id="Structure" order="1" sideWeight="0.5011468" side_tool="true" weight="0.1765625" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.17541766" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293556" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005208" side_tool="true" weight="0.3451835" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32816228" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32998884" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="14" weight="0.14269789" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2640389" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.13066955" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="PlantUML" order="9" weight="0.24253732" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java</url>
+          <line>253</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java</url>
+          <line>245</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/OrderMapper.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/sql/DriverManager.java</url>
+          <line>246</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/BaseExecutor.java</url>
+          <line>202</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/CachingExecutor.java</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/BaseExecutor.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/BaseExecutor.java</url>
+          <line>327</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/CachingExecutor.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperMethod.java</url>
+          <line>146</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/executor/NxResultSetHandler.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/executor/NxStatementHandler.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/executor/NxStatementHandler.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/executor/NxStatementHandler.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/custom-mybatis/src/main/java/com/nx/custom/mybatis/executor/NxResultSetHandler.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/FirstLevelCache.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/FirstLevelCache.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/FirstLevelCache.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/SecondLeveoCache.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/SecondLeveoCache.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/CachingExecutor.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/PreparedStatementHandler.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/sql/DriverManager.java</url>
+          <line>651</line>
+          <properties />
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/sql/DriverManager.java</url>
+          <line>661</line>
+          <properties />
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/sql/DriverManager.java</url>
+          <line>555</line>
+          <properties />
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/pattern/proxy/CourseProxy.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/FirstLevelCache.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java</url>
+          <line>438</line>
+          <properties />
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperRegistry.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperMethod.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/FirstLevelCache.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/FirstLevelCache.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/FirstLevelCache.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java</url>
+          <line>234</line>
+          <properties />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/Configuration.java</url>
+          <line>750</line>
+          <properties />
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/Configuration.java</url>
+          <line>645</line>
+          <properties />
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperMethod.java</url>
+          <line>152</line>
+          <properties />
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/BaseExecutor.java</url>
+          <line>325</line>
+          <properties />
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/RoutingStatementHandler.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/RoutingStatementHandler.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/BaseStatementHandler.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/BaseStatementHandler.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/CachingExecutor.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/FirstLevelCache.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/FirstLevelCache.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/SecondLeveoCache.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java</url>
+          <line>255</line>
+          <properties />
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/MapperBuilderAssistant.java</url>
+          <line>296</line>
+          <properties />
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/Configuration.java</url>
+          <line>649</line>
+          <properties />
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperProxy.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperProxy.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperProxy.java</url>
+          <line>154</line>
+          <properties />
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/PreparedStatementHandler.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/FirstLevelCache.java</url>
+          <line>23</line>
+          <properties class="com.nv.cache.FirstLevelCache" method="testSession">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>ms</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ms.getId()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ms.getStatementType()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cache</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mapperMethod</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>return mapperMethod.execute(sqlSession, args);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String.valueOf(key)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sqlSession1.commit(true)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>orderMapper1.queryById(620898339119480832L)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/ReuseExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="260" column="27" selection-start-line="260" selection-start-column="27" selection-end-line="260" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="333" column="16" selection-start-line="333" selection-start-column="16" selection-end-line="333" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35-sources.jar!/com/mysql/jdbc/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/BaseBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/cache/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/cache/impl/PerpetualCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/cache/decorators/BlockingCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/mybatis-Cache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/FirstLevelCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="95" lean-forward="true" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.apache.ibatis.executor.Executor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.apache.ibatis.executor.Executor</OriginalElement>
+          <nodes>
+            <node x="43.24999999999994" y="-122.0">org.apache.ibatis.executor.Executor</node>
+            <node x="117.99999999999994" y="-26.0">org.apache.ibatis.executor.CachingExecutor</node>
+            <node x="123.99999999999994" y="70.0">org.apache.ibatis.executor.SimpleExecutor</node>
+            <node x="-86.00000000000006" y="-26.0">org.apache.ibatis.executor.BaseExecutor</node>
+            <node x="-92.00000000000006" y="70.0">org.apache.ibatis.executor.ReuseExecutor</node>
+            <node x="-305.0" y="70.0">org.apache.ibatis.executor.BatchExecutor</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.apache.ibatis.executor.ReuseExecutor" target="org.apache.ibatis.executor.BaseExecutor">
+              <point x="0.0" y="-23.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="org.apache.ibatis.executor.BaseExecutor" target="org.apache.ibatis.executor.Executor">
+              <point x="0.0" y="-23.0" />
+              <point x="5.999999999999943" y="-51.0" />
+              <point x="79.49999999999994" y="-51.0" />
+              <point x="-36.25" y="23.0" />
+            </edge>
+            <edge source="org.apache.ibatis.executor.CachingExecutor" target="org.apache.ibatis.executor.Executor">
+              <point x="0.0" y="-23.0" />
+              <point x="225.5" y="-51.0" />
+              <point x="151.99999999999994" y="-51.0" />
+              <point x="36.25" y="23.0" />
+            </edge>
+            <edge source="org.apache.ibatis.executor.SimpleExecutor" target="org.apache.ibatis.executor.BaseExecutor">
+              <point x="0.0" y="-23.0" />
+              <point x="226.0" y="45.0" />
+              <point x="67.33333333333326" y="45.0" />
+              <point x="61.333333333333314" y="23.0" />
+            </edge>
+            <edge source="org.apache.ibatis.executor.BatchExecutor" target="org.apache.ibatis.executor.BaseExecutor">
+              <point x="0.0" y="-23.0" />
+              <point x="-208.5" y="45.0" />
+              <point x="-55.33333333333337" y="45.0" />
+              <point x="-61.333333333333314" y="23.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-380.0" y="-117.0" />
+          <SelectedNodes>
+            <node>org.apache.ibatis.executor.CachingExecutor</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/cache/TransactionalCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/mybatis-CacheSecond.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/test/java/com.nv.cache/SecondLeveoCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="70" column="56" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/MybatisFirstConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/parsing/XPathParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/parsing/XNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLStatementBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/MapperBuilderAssistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="296" selection-start-line="296" selection-end-line="296" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/SqlSessionFactoryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/SqlSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#3666#3667#0" expanded="true" />
+            <element signature="e#3713#3714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/SqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="282" column="8" selection-start-line="282" selection-start-column="8" selection-end-line="282" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="154" column="28" lean-forward="true" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/binding/MapperMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+          <folding>
+            <element signature="e#9503#9504#0" expanded="true" />
+            <element signature="e#9528#9529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+          <folding>
+            <element signature="e#2426#2427#0" expanded="true" />
+            <element signature="e#2474#2475#0" expanded="true" />
+            <element signature="e#6488#6489#0" expanded="true" />
+            <element signature="e#6528#6529#0" expanded="true" />
+            <element signature="e#7190#7191#0" expanded="true" />
+            <element signature="e#7213#7214#0" expanded="true" />
+            <element signature="e#8848#8849#0" expanded="true" />
+            <element signature="e#8878#8879#0" expanded="true" />
+            <element signature="e#8933#8934#0" expanded="true" />
+            <element signature="e#8985#8986#0" expanded="true" />
+            <element signature="e#9540#9541#0" expanded="true" />
+            <element signature="e#9588#9589#0" expanded="true" />
+            <element signature="e#9644#9645#0" expanded="true" />
+            <element signature="e#9714#9715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/CachingExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="107" column="46" selection-start-line="107" selection-start-column="46" selection-end-line="107" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/BaseStatementHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/session/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="637" selection-start-line="637" selection-end-line="637" />
+          <folding>
+            <element signature="e#15737#15738#0" expanded="true" />
+            <element signature="e#15773#15774#0" expanded="true" />
+            <element signature="e#25034#25035#0" expanded="true" />
+            <element signature="e#25080#25081#0" expanded="true" />
+            <element signature="e#26299#26300#0" expanded="true" />
+            <element signature="e#26349#26350#0" expanded="true" />
+            <element signature="e#26924#26925#0" expanded="true" />
+            <element signature="e#26972#26973#0" expanded="true" />
+            <element signature="e#27018#27019#0" expanded="true" />
+            <element signature="e#27058#27059#0" expanded="true" />
+            <element signature="e#27124#27125#0" expanded="true" />
+            <element signature="e#27183#27184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="478" column="12" selection-start-line="478" selection-start-column="12" selection-end-line="478" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/logging/jdbc/PreparedStatementLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/BaseExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="330" selection-start-line="330" selection-end-line="330" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1085">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding>
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/StatementHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/RoutingStatementHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1612">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/MybatisConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/statement/PreparedStatementHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1085">
+          <caret line="64" column="44" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/resultset/ResultSetHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-3/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3751">
+          <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/nx/mybatis/TraditionConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="1" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5011494" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib:3.3.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5011494" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
