@@ -9,6 +9,8 @@
 */target/*
 /.settings/
 /.idea/
+*/.idea
+*/.idea/
 */.gitignore
 *.project
 **.classpath
