@@ -85,4 +85,5 @@ public class InnerInterfaceDemo {
         });
         System.out.println(newList);
     }
+
 }

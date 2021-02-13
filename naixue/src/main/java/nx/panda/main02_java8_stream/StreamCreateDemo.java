@@ -4,6 +4,7 @@ import org.junit.Test;
 import nx.panda.main02_java8.Offer;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Stream;
 
 /**
@@ -17,7 +18,7 @@ import java.util.stream.Stream;
  */
 public class StreamCreateDemo {
 
-    Offer[] offerArray = {new Offer(101, "百度", 500, 9999.99),
+    static  Offer[] offerArray = {new Offer(101, "百度", 500, 9999.99),
             new Offer(102, "阿里巴巴", 700, 6666.66),
             new Offer(103, "腾讯", 800, 6666.66),
             new Offer(104, "字节跳动", 400, 7777.77),
@@ -28,7 +29,9 @@ public class StreamCreateDemo {
     @Test
     public void test01(){
         //1、通过Collection的集合提供stream()方法或者parallelStream()方法创建流
-        Stream<Offer> stream01 = offerList.stream();
+        Stream<Offer> stream01 = offerList.stream(); //顺序流
+        Stream<Offer> stream011 = offerList.parallelStream(); //parallel 并行流
+        
         //2、通过Array.stream()多去数组流
         Stream<Offer> stream02 = Arrays.stream(offerArray);
         //3、使用Stream.of也可以创建流
@@ -42,6 +45,7 @@ public class StreamCreateDemo {
         stream.forEach(System.out::println);
         System.out.println("---------");
         stream.forEach(System.out::println);
+
 
     }
 
