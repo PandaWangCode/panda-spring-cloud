@@ -11,6 +11,8 @@ import java.util.List;
 **/
 public class CommonPage<T> {
 
+    /** 标志**/
+    private boolean flag = true;
     /**第几页**/
     private Integer pageNum;
     /**每一页的条数 10 , 20 , 50**/
@@ -74,5 +76,13 @@ public class CommonPage<T> {
 
     public void setTotal(Long total) {
         this.total = total;
+    }
+
+    public boolean isFlag() {
+        return flag;
+    }
+
+    public void setFlag(boolean flag) {
+        this.flag = flag;
     }
 }

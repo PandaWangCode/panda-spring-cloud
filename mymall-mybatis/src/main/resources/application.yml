@@ -10,6 +10,6 @@ spring:
 mybatis:
   mapper-locations: # mapper映射文件位置
     - classpath:mapper/*.xml
-    - classpath*:com/**/mapper/*.xml
+    - classpath*:com.mall.mybatis.mbg.mapper/*.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #用于控制台打印sql语句
