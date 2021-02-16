@@ -47,8 +47,46 @@ public class MyOptionalDemo {
 		Optional<Offer> offer2 = Optional.of(offer);
 		Offer offer3 = offer2.orElse(new Offer());
 		System.out.println(offer3.getEmpNumber());
+
 	}
-	
-	
+
+	@Test
+	public void test2() {
+		Offer offer = null;
+		Optional<Offer> offer2 = Optional.ofNullable(offer).map(o->new Offer(5000)); //返回是null
+		System.out.println(offer2.toString());
+
+		//同样的语句，同样的操作，只是这个时候offer不是null
+		Offer oOffer2 = new Offer(100);
+		Optional<Offer> offer3 = Optional.ofNullable(oOffer2).map(o->new Offer(5000)); //返回是5000的结果
+		System.out.println(offer3.toString());
+
+		String s = extracted(new Offer(499));
+		System.out.println("s = " + s);
+		String s2 = extracted(null);
+		System.out.println("s = " + s2);
+
+
+
+		Offer e = extracted2(new Offer(499));
+		System.out.println("e = " + e);
+		Offer e2 = extracted2(null);
+		System.out.println("e = " + e2);
+
+	}
+
+	private static String extracted(Offer oOffer2) {
+		//接着测试：多层map会返回最后一个map的值
+		return  Optional.ofNullable(oOffer2)
+				.map(n-> String.valueOf(n.getEmpNumber()))
+				.orElse("空值");
+				//.orElseGet(()->"");
+				//.orElseThrow(()->new IllegalArgumentException("Invalid getEmpNumber."));
+	}
+
+	private static Offer extracted2(Offer oOffer2) {
+		return  Optional.ofNullable(oOffer2).orElse(new Offer());//空则new一个，不空就返回
+	}
+
 
 }
