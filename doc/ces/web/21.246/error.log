@@ -1,0 +1,5 @@
+2020/04/02 15:29:43 [error] 127148#0: *13 "/usr/local/nginx/html/index.html" is forbidden (13: Permission denied), client: 10.1.58.82, server: 10.1.21.246, request: "GET / HTTP/1.1", host: "10.1.21.246:8081"
+2020/04/02 15:29:43 [error] 127148#0: *13 open() "/usr/local/nginx/html/favicon.ico" failed (13: Permission denied), client: 10.1.58.82, server: 10.1.21.246, request: "GET /favicon.ico HTTP/1.1", host: "10.1.21.246:8081", referrer: "http://10.1.21.246:8081/"
+2020/04/02 15:29:53 [notice] 127226#0: signal process started
+2020/04/02 15:29:57 [error] 127227#0: *16 "/usr/local/nginx/html/index.html" is forbidden (13: Permission denied), client: 10.1.58.82, server: 10.1.21.246, request: "GET / HTTP/1.1", host: "10.1.21.246:8081"
+2020/04/02 15:29:57 [error] 127227#0: *16 open() "/usr/local/nginx/html/favicon.ico" failed (13: Permission denied), client: 10.1.58.82, server: 10.1.21.246, request: "GET /favicon.ico HTTP/1.1", host: "10.1.21.246:8081", referrer: "http://10.1.21.246:8081/"

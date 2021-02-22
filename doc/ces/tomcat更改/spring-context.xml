@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.2.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+        ">
+    
+    <description>Spring MVC Configuration</description>
+     <!-- 用于扫描 注解 -->
+    <context:component-scan base-package="cn.com.acca.pubcen.*"/>
+    <!-- 加載配置文件
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">  
+	  <property name="order" value="1"/>  
+	  <property name="ignoreUnresolvablePlaceholders" value="true"/>  
+	  <property name="locations">  
+	    <list>  
+	        <value>classpath:config.properties</value>
+	    </list>  
+	  </property>  
+	</bean> -->
+
+	<!-- druid监控统计bean 对应上文druidDataSource中的proxyFilters 可选项-->
+	<bean id="stat-filter" class="com.alibaba.druid.filter.stat.StatFilter">
+        <property name="slowSqlMillis" value="1000" />
+        <property name="logSlowSql" value="true" />
+        <property name="mergeSql" value="true" />
+    </bean>
+    <!-- druid公用配置项-->
+    <bean id="baseConfig" class="com.alibaba.druid.pool.DruidDataSource" abstract="true">
+   		<!--initialSize:初始化连接大小    -->
+		<property name="initialSize" value="0" />
+		<!--maxActive:连接池最大使用连接数量  -->
+		<property name="maxActive" value="20" />
+		<!-- minIdle:连接池最小空闲 -->
+		<property name="minIdle" value="0" />
+		<!-- maxWait:获取连接最大等待时间 -->
+		<property name="maxWait" value="60000" />
+		<property name="poolPreparedStatements" value="true" />
+		<property name="maxPoolPreparedStatementPerConnectionSize" value="33" />
+		<!-- 用来检测有效sql -->
+		<property name="validationQuery" value="select sysdate from dual" />
+		<property name="testOnBorrow" value="false" />
+		<property name="testOnReturn" value="false" />
+		<property name="testWhileIdle" value="true" />
+		<!-- timeBetweenEvictionRunsMillis:配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+		<property name="timeBetweenEvictionRunsMillis" value="60000" />
+		<!-- minEvictableIdleTimeMillis:配置一个连接在池中最小生存的时间，单位是毫秒 -->
+		<property name="minEvictableIdleTimeMillis" value="25200000" />
+		<!-- removeAbandoned:超过时间限制是否回收 -->
+		<property name="removeAbandoned" value="true" />
+		<!-- removeAbandonedTimeout:1800秒，也就是30分钟 -->
+		<property name="removeAbandonedTimeout" value="1800" />
+		<!-- logAbandoned:关闭abanded连接时输出错误日志 -->
+		<property name="logAbandoned" value="true" />
+		<!-- filters:监控数据库 -->
+		<property name="filters" value="mergeStat" />
+		<!--property name="filters" value="wall,mergeStat,slf4j" / -->
+		<!-- 该处和下面的可选项proxyFilters一样的效果
+		<property name="connectionProperties"
+			value="druid.stat.slowSqlMillis=1000;druid.stat.logSlowSql=true;druid.stat.mergeSql=true" />-->
+	    <!-- 可选项 -->
+        <property name="proxyFilters">
+            <list>
+                <ref bean="stat-filter"/>
+            </list>
+        </property>
+    </bean>
+    
+	<!-- 配置NCS数据源 使用的是Druid数据源 -->
+	<bean id="druidNCSDataSource" name="druidNCSDataSource" class="com.alibaba.druid.pool.DruidDataSource" 
+	 init-method="init" destroy-method="close" parent="baseConfig">
+		<property name="url" value="jdbc:oracle:thin:@10.1.19.67:1521/NCSTEST" />
+		<property name="username" value="ncs_test" />
+		<property name="password" value="acca" />
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+	</bean>
+	
+	<!-- 配置EMD数据源 使用的是Druid数据源 -->
+	<bean id="druidEMDDataSource" name="druidEMDDataSource" class="com.alibaba.druid.pool.DruidDataSource" 
+	 init-method="init" destroy-method="close" parent="baseConfig">
+		<property name="url" value="jdbc:oracle:thin:@10.1.19.76:1521/NESCSDEV" />
+		<property name="username" value="nescs_dev" />
+		<property name="password" value="acca" />
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+	</bean>
+    
+    <!-- 多数据源 -->
+    <bean id="multipleDataSource" class="cn.com.acca.pubcen.common.datasource.ChooseDataSource">
+	    <property name="targetDataSources">
+	    	<map key-type="java.lang.String">
+	         <!-- NCS -->
+	         <entry value-ref="druidNCSDataSource" key="NCS"></entry>
+	         <!-- EMD -->
+	         <entry value-ref="druidEMDDataSource" key="EMD"></entry>
+	        </map>
+	    </property>
+	    <property name="defaultTargetDataSource" ref="druidNCSDataSource"></property>
+	</bean> 
+    
+    <!-- 配置SqlSessionFactory对象  -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<!-- 注入数据库连接池 -->
+		<property name="dataSource" ref="multipleDataSource"/>
+		<!-- 配置MyBaties全局配置文件:mybatis-config.xml -->
+		<property name="configLocation" value="classpath:mybatis-config.xml" />
+		<!-- 扫描entity包 使用别名 -->
+		<property name="typeAliasesPackage" value="classpath:cn/com/acca/pubcen/persistence/entity" />
+		<!-- 扫描sql配置文件:mapper需要的xml文件 -->
+		<property name="mapperLocations" value="classpath:mappers/*/*.xml" />
+		<!--<property name="mapperLocations">  
+            <list>  
+                <value>classpath:mapper/*/*.xml</value>
+            </list>  
+        </property>--> 
+	</bean>
+	
+	<!-- 配置扫描Dao接口包，动态实现Dao接口，注入到spring容器中 -->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<!-- 注入sqlSessionFactory -->
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+		<!-- 给出需要扫描自定义的持久层 mapper接口包 -->
+		<property name="basePackage" value="cn.com.acca.pubcen.persistence.mapper" />
+	</bean>
+
+	<!--其实这里类的实例就是mybatis中SQLSession -->  
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">  
+        <constructor-arg index="0">  
+            <ref bean="sqlSessionFactory" />  
+        </constructor-arg>  
+    </bean>
+    
+	<!-- 配置事务管理器 -->
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<!-- 注入数据库连接池 -->
+		<property name="dataSource" ref="multipleDataSource" />
+	</bean>
+	
+	<!-- 配置基于注解的声明式事务 -->
+	<tx:annotation-driven transaction-manager="transactionManager" order="2"/>
+
+    <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy>
+	
+</beans>

@@ -1,0 +1,216 @@
+=========================================================================
+
+  JBoss Bootstrap Environment
+
+  JBOSS_HOME: /data/jboss-as-7.1.1.Final
+
+  JAVA: java
+
+  JAVA_OPTS:  -server -XX:+UseCompressedOops -XX:+TieredCompilation -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Dorg.jboss.resolver.warning=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.server.default.config=standalone.xml
+
+=========================================================================
+
+17:03:48,049 INFO  [org.jboss.modules] JBoss Modules version 1.1.1.GA
+17:03:48,789 INFO  [org.jboss.msc] JBoss MSC version 1.0.2.GA
+17:03:48,914 INFO  [org.jboss.as] JBAS015899: JBoss AS 7.1.1.Final "Brontes" starting
+17:03:50,707 INFO  [org.xnio] XNIO Version 3.0.3.GA
+17:03:50,714 INFO  [org.jboss.as.server] JBAS015888: Creating http management service using socket-binding (management-http)
+17:03:50,726 INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.0.3.GA
+17:03:50,736 INFO  [org.jboss.remoting] JBoss Remoting version 3.2.3.GA
+17:03:50,826 INFO  [org.jboss.as.logging] JBAS011502: Removing bootstrap log handlers
+17:03:50,834 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+17:03:50,863 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+17:03:50,921 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+17:03:50,945 INFO  [org.jboss.as.connector] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+17:03:50,950 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+17:03:50,979 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+17:03:50,993 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013100: Current PicketBox version=4.0.7.Final
+17:03:51,023 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+17:03:51,076 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+17:03:51,116 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+17:03:51,150 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+17:03:51,551 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-1) JBoss Web Services - Stack CXF Server 4.0.2.GA
+17:03:51,644 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) Starting Coyote HTTP/1.1 on http--10.1.19.69-8080
+17:03:52,213 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on /127.0.0.1:9999
+17:03:52,221 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on /10.1.19.69:4447
+17:03:52,231 WARN  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015005: Reliable deployment behaviour is not possible when auto-deployment of exploded content is enabled (i.e. deployment without use of ".dodeploy"' marker files). Configuration of auto-deployment of exploded content is not recommended in any situation where reliability is desired. Configuring the deployment scanner's auto-deploy-exploded setting to "false" is recommended.
+17:03:52,251 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory /data/jboss-as-7.1.1.Final/standalone/deployments
+17:03:52,505 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+17:03:52,627 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "ncs-web.war"
+17:04:01,409 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry ridl.jar in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/jurt-4.1.2.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,413 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry unoloader.jar in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/jurt-4.1.2.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,415 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry ../../lib/ in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/jurt-4.1.2.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,417 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry ../bin/ in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/jurt-4.1.2.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,426 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry ridl.jar in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/juh-4.1.2.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,428 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry jurt.jar in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/juh-4.1.2.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,429 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry ../../lib/ in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/juh-4.1.2.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,431 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry ../bin/ in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/juh-4.1.2.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,500 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry commons-io-1.4.jar in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/jodconverter-core-3.0-beta-4.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,501 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry juh-3.2.1.jar in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/jodconverter-core-3.0-beta-4.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,502 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry jurt-3.2.1.jar in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/jodconverter-core-3.0-beta-4.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,504 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry ridl-3.2.1.jar in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/jodconverter-core-3.0-beta-4.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,506 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry unoil-3.2.1.jar in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/jodconverter-core-3.0-beta-4.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,506 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry commons-cli-1.1.jar in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/jodconverter-core-3.0-beta-4.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,508 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry sigar-1.6.5.132.jar in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/jodconverter-core-3.0-beta-4.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,518 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) Class Path entry json-20090211.jar in "/data/jboss-as-7.1.1.Final/standalone/deployments/ncs-web.war/WEB-INF/lib/jodconverter-core-3.0-beta-4.jar"  does not point to a valid jar for a Class-Path reference.
+17:04:01,805 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015893: Encountered invalid class name 'moduleName=groovy-all' for service type 'org.codehaus.groovy.runtime.ExtensionModule'
+17:04:01,806 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015893: Encountered invalid class name 'moduleVersion=2.0.1' for service type 'org.codehaus.groovy.runtime.ExtensionModule'
+17:04:01,808 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015893: Encountered invalid class name 'extensionClasses=org.codehaus.groovy.jsr223.ScriptExtensions,org.codehaus.groovy.runtime.SqlGroovyMethods,org.codehaus.groovy.runtime.SwingGroovyMethods,org.codehaus.groovy.runtime.XmlGroovyMethods' for service type 'org.codehaus.groovy.runtime.ExtensionModule'
+17:04:01,809 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015893: Encountered invalid class name 'staticExtensionClasses=org.codehaus.groovy.jsr223.ScriptStaticExtensions' for service type 'org.codehaus.groovy.runtime.ExtensionModule'
+17:04:02,908 WARN  [org.jboss.as.ee] (MSC service thread 1-4) JBAS011006: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to exception: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011054: Could not find default constructor for class org.springframework.web.context.request.async.StandardServletAsyncWebRequest
+	at org.jboss.as.ee.component.ComponentDescription$DefaultComponentConfigurator.configure(ComponentDescription.java:606)
+	at org.jboss.as.ee.component.deployers.EEModuleConfigurationProcessor.deploy(EEModuleConfigurationProcessor.java:81)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_45]
+	at java.lang.Thread.run(Thread.java:744) [rt.jar:1.7.0_45]
+
+17:04:02,934 WARN  [org.jboss.as.ee] (MSC service thread 1-4) JBAS011006: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to exception: org.jboss.as.server.deployment.DeploymentUnitProcessingException: JBAS011054: Could not find default constructor for class org.springframework.http.server.ServletServerHttpAsyncRequestControl
+	at org.jboss.as.ee.component.ComponentDescription$DefaultComponentConfigurator.configure(ComponentDescription.java:606)
+	at org.jboss.as.ee.component.deployers.EEModuleConfigurationProcessor.deploy(EEModuleConfigurationProcessor.java:81)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_45]
+	at java.lang.Thread.run(Thread.java:744) [rt.jar:1.7.0_45]
+
+17:04:02,947 WARN  [org.jboss.as.ee] (MSC service thread 1-4) JBAS011006: Not installing optional component org.apache.catalina.filters.HttpHeaderSecurityFilter due to exception: java.lang.ClassNotFoundException: org.apache.catalina.filters.HttpHeaderSecurityFilter from [Module "deployment.ncs-web.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398) [jboss-modules.jar:1.1.1.GA]
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120) [jboss-modules.jar:1.1.1.GA]
+	at java.lang.Class.forName0(Native Method) [rt.jar:1.7.0_45]
+	at java.lang.Class.forName(Class.java:270) [rt.jar:1.7.0_45]
+	at org.jboss.as.server.deployment.reflect.DeploymentClassIndex.classIndex(DeploymentClassIndex.java:54) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.as.ee.component.deployers.EEModuleConfigurationProcessor.deploy(EEModuleConfigurationProcessor.java:79)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:113) [jboss-as-server-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_45]
+	at java.lang.Thread.run(Thread.java:744) [rt.jar:1.7.0_45]
+
+17:04:03,170 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+17:04:03,172 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+17:04:03,174 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+17:04:03,178 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010402: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+17:04:03,189 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010403: Deploying JDBC-compliant driver class com.alibaba.druid.proxy.DruidDriver (version 4.0)
+17:04:03,202 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010403: Deploying JDBC-compliant driver class com.alibaba.druid.mock.MockDriver (version 0.0)
+17:04:03,246 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010403: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+17:04:03,371 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/ncs-web]] (MSC service thread 1-2) No Spring WebApplicationInitializer types detected on classpath
+17:04:03,413 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/ncs-web]] (MSC service thread 1-2) Initializing Spring root WebApplicationContext
+17:04:03,415 INFO  [org.springframework.web.context.ContextLoader] (MSC service thread 1-2) Root WebApplicationContext: initialization started
+17:04:03,461 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (MSC service thread 1-2) Refreshing Root WebApplicationContext: startup date [Wed Sep 09 17:04:03 CST 2020]; root of context hierarchy
+17:04:03,511 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (MSC service thread 1-2) Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/applicationContext.xml]
+17:04:05,082 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (MSC service thread 1-2) Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/spring/applicationContext-auth.xml]
+17:04:06,295 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (MSC service thread 1-2) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+17:04:06,565 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor#0' of type [class org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:06,582 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'sysUserDao' of type [class cn.com.acca.ncs.persistence.dao.system.SysUserDao] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:06,624 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'sysPermissionDao' of type [class cn.com.acca.ncs.persistence.dao.system.SysPermissionDao] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:06,648 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'hashService' of type [class org.apache.shiro.crypto.hash.DefaultHashService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:06,661 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'hashFormatFactory' of type [class org.apache.shiro.crypto.hash.format.DefaultHashFormatFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:06,664 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'hashFormat' of type [class org.apache.shiro.crypto.hash.format.Shiro1CryptFormat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:06,671 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'passwordService' of type [class org.apache.shiro.authc.credential.DefaultPasswordService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:06,673 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'passwordMatcher' of type [class org.apache.shiro.authc.credential.PasswordMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:06,675 INFO  [org.apache.shiro.realm.AuthorizingRealm] (MSC service thread 1-2) No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+17:04:06,681 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'loginAuthorizingRealm' of type [class cn.com.acca.ncs.system.domain.authority.LoginAuthorizingRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:06,743 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'sessionDAO' of type [class org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:06,779 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'simpleCookie' of type [class org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:06,785 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'sessionManager' of type [class org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:07,052 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'cacheManager' of type [class org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:07,061 INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] (MSC service thread 1-2) Cache with name 'LoginCasRealm.authorizationCache' does not yet exist.  Creating now.
+17:04:07,062 WARN  [net.sf.ehcache.config.CacheConfiguration] (MSC service thread 1-2) Cache: LoginCasRealm.authorizationCache has a maxElementsInMemory of 0. This might lead to performance degradation or OutOfMemoryError at Terracotta client.From Ehcache 2.0 onwards this has been changed to mean a store with no capacity limit. Set it to 1 if you want no elements cached in memory
+17:04:07,064 INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] (MSC service thread 1-2) Added EhCache named [LoginCasRealm.authorizationCache]
+17:04:07,065 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:07,103 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'org.apache.shiro.web.filter.authc.PassThruAuthenticationFilter#2d4dbf5' of type [class org.apache.shiro.web.filter.authc.PassThruAuthenticationFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:07,125 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'util:map#64b4b346' of type [class org.springframework.beans.factory.config.MapFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:07,129 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-2) Bean 'util:map#64b4b346' of type [class java.util.LinkedHashMap] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:04:09,784 INFO  [org.springframework.web.context.ContextLoader] (MSC service thread 1-2) Root WebApplicationContext: initialization completed in 6368 ms
+17:04:09,955 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/ncs-web]] (MSC service thread 1-2) Exception starting filter httpHeaderSecurity: java.lang.ClassNotFoundException: org.apache.catalina.filters.HttpHeaderSecurityFilter from [Module "deployment.ncs-web.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:190)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:468)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:456)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:120)
+	at org.jboss.as.web.deployment.WebInjectionContainer.newInstance(WebInjectionContainer.java:72) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:441) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:3269) [jbossweb-7.0.13.Final.jar:]
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:3865) [jbossweb-7.0.13.Final.jar:]
+	at org.jboss.as.web.deployment.WebDeploymentService.start(WebDeploymentService.java:90) [jboss-as-web-7.1.1.Final.jar:7.1.1.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_45]
+	at java.lang.Thread.run(Thread.java:744) [rt.jar:1.7.0_45]
+
+17:04:10,327 INFO  [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] (MSC service thread 1-2) Parsing configuration file [struts-default.xml]
+17:04:10,438 INFO  [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] (MSC service thread 1-2) Parsing configuration file [struts-plugin.xml]
+17:04:10,657 INFO  [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] (MSC service thread 1-2) Unable to locate configuration files of the name struts/struts-annual.xml, skipping
+17:04:10,751 INFO  [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] (MSC service thread 1-2) Parsing configuration file [struts.xml]
+17:04:10,761 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+17:04:10,762 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+17:04:10,762 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+17:04:10,766 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+17:04:10,767 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+17:04:10,767 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+17:04:10,768 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)
+17:04:10,769 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+17:04:10,769 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+17:04:10,770 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+17:04:10,771 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+17:04:10,772 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+17:04:10,773 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+17:04:10,773 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+17:04:10,774 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+17:04:10,775 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+17:04:10,775 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+17:04:10,776 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+17:04:10,776 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+17:04:10,777 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+17:04:10,778 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+17:04:10,778 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+17:04:10,779 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+17:04:10,780 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+17:04:10,781 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+17:04:10,781 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+17:04:10,783 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+17:04:10,784 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+17:04:10,785 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+17:04:10,785 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+17:04:10,786 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+17:04:10,787 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+17:04:10,789 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)
+17:04:10,791 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+17:04:10,793 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+17:04:10,794 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+17:04:10,794 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+17:04:10,795 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)
+17:04:10,795 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)
+17:04:10,799 INFO  [org.apache.struts2.config.AbstractBeanSelectionProvider] (MSC service thread 1-2) Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)
+17:04:10,814 INFO  [org.apache.struts2.spring.StrutsSpringObjectFactory] (MSC service thread 1-2) Initializing Struts-Spring integration...
+17:04:10,815 INFO  [com.opensymphony.xwork2.spring.SpringObjectFactory] (MSC service thread 1-2) Setting autowire strategy to name
+17:04:10,815 INFO  [org.apache.struts2.spring.StrutsSpringObjectFactory] (MSC service thread 1-2) ... initialized Struts-Spring integration successfully
+17:04:12,128 ERROR [org.apache.catalina.core.StandardContext] (MSC service thread 1-2) Error filterStart
+17:04:12,128 ERROR [org.apache.catalina.core.StandardContext] (MSC service thread 1-2) Context [/ncs-web] startup failed due to previous errors
+17:04:12,153 INFO  [org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/ncs-web]] (MSC service thread 1-2) Closing Spring root WebApplicationContext
+17:04:12,154 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (MSC service thread 1-2) Closing Root WebApplicationContext: startup date [Wed Sep 09 17:04:03 CST 2020]; root of context hierarchy
+17:04:12,218 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC00001: Failed to start service jboss.web.deployment.default-host./ncs-web: org.jboss.msc.service.StartException in service jboss.web.deployment.default-host./ncs-web: JBAS018040: Failed to start context
+	at org.jboss.as.web.deployment.WebDeploymentService.start(WebDeploymentService.java:95)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746) [jboss-msc-1.0.2.GA.jar:1.0.2.GA]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_45]
+	at java.lang.Thread.run(Thread.java:744) [rt.jar:1.7.0_45]
+
+17:04:12,223 INFO  [org.jboss.as] (MSC service thread 1-3) JBAS015951: Admin console listening on http://127.0.0.1:9990
+17:04:12,223 ERROR [org.jboss.as] (MSC service thread 1-3) JBAS015875: JBoss AS 7.1.1.Final "Brontes" started (with errors) in 25059ms - Started 362 of 441 services (2 services failed or missing dependencies, 76 services are passive or on-demand)
+17:04:12,345 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS015870: Deploy of deployment "ncs-web.war" was rolled back with failure message {"JBAS014671: Failed services" => {"jboss.web.deployment.default-host./ncs-web" => "org.jboss.msc.service.StartException in service jboss.web.deployment.default-host./ncs-web: JBAS018040: Failed to start context"}}
+17:04:12,501 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment ncs-web.war in 175ms
+17:04:12,504 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.web.deployment.default-host./ncs-web: org.jboss.msc.service.StartException in service jboss.web.deployment.default-host./ncs-web: JBAS018040: Failed to start context
+
+17:04:12,506 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) {"JBAS014653: Composite operation failed and was rolled back. Steps that failed:" => {"Operation step-2" => {"JBAS014671: Failed services" => {"jboss.web.deployment.default-host./ncs-web" => "org.jboss.msc.service.StartException in service jboss.web.deployment.default-host./ncs-web: JBAS018040: Failed to start context"}}}}

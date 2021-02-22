@@ -1,0 +1,4 @@
+10.1.58.82 - - [02/Apr/2020:15:29:43 +0800] "GET / HTTP/1.1" 403 555 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+10.1.58.82 - - [02/Apr/2020:15:29:43 +0800] "GET /favicon.ico HTTP/1.1" 403 555 "http://10.1.21.246:8081/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+10.1.58.82 - - [02/Apr/2020:15:29:57 +0800] "GET / HTTP/1.1" 403 555 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+10.1.58.82 - - [02/Apr/2020:15:29:57 +0800] "GET /favicon.ico HTTP/1.1" 403 555 "http://10.1.21.246:8081/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"

@@ -1,0 +1,22 @@
+LoadModule slotmem_module modules/mod_slotmem.so
+LoadModule manager_module modules/mod_manager.so
+LoadModule proxy_cluster_module modules/mod_proxy_cluster.so
+LoadModule advertise_module modules/mod_advertise.so
+
+Listen 10.8.21.11:6666
+<VirtualHost 10.8.21.11:6666>
+	
+	KeepAliveTimeout 60
+	MaxKeepAliveRequests 0
+	ManagerBalancerName DSIS_WEB
+	ServerAdvertise Off
+	
+	<Location /mod_cluster_manager>
+	    SetHandler mod_cluster-manager
+	    Order deny,allow
+		Deny from all
+#        Allow from 10.1.21.139
+	 Allow from all
+	</Location>
+	
+</VirtualHost>
